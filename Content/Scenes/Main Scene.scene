@@ -1,0 +1,185 @@
+{
+	"ID": "5c3d4b81436933edcb37f28588e9dca5",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6216,
+	"Data": [
+		{
+			"ID": "5c3d4b81436933edcb37f28588e9dca5",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "9856da994ec1206f6cb1dbbd848caa0e",
+			"TypeName": "63150f2e4a818cbf76d3338e87fb4e48",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"D": {}
+		},
+		{
+			"ID": "7b84bdc947bbcb610de43083ab54b831",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				}
+			},
+			"Brightness": 4.0
+		},
+		{
+			"ID": "1580fb774b1108613698c9b427228a51",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "7b84bdc947bbcb610de43083ab54b831",
+			"SunPower": 4.0
+		},
+		{
+			"ID": "0e7add404f4fae1fb5cd4391bff13cef",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "42839400409b5e1d4246879e2d10f153",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Floor",
+			"Transform": {
+				"Scale": {
+					"X": 20.0,
+					"Y": 0.5,
+					"Z": 20.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "1771b53343d461faacdf2c8581b1fdbb",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d50699d54c7670d5758e638b88c0ee83",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": 24.27044677734375
+				},
+				"Orientation": {
+					"X": -0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "b31f892f434d265bcf7041bdbe6b48f8",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "CharacterController",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 75.0,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true
+		},
+		{
+			"ID": "0102a57d44a7121f8082ecb98f68b55b",
+			"TypeName": "Game.PlayerMovement",
+			"ParentID": "b31f892f434d265bcf7041bdbe6b48f8",
+			"V": {}
+		},
+		{
+			"ID": "96c0e9dd4e6e8c4b85c890a55bec5227",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "b31f892f434d265bcf7041bdbe6b48f8",
+			"Name": "CapsuleCollider"
+		},
+		{
+			"ID": "2113857f443591371c963fa53175afb1",
+			"TypeName": "FlaxEngine.Foliage",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Foliage"
+		},
+		{
+			"ID": "833efc2a41e5a8ca856eaf885d6242b5",
+			"TypeName": "FlaxEngine.ParticleEffect",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"Name": "Pabloe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 216.4915771484375,
+					"Z": 895.9119873046875
+				}
+			},
+			"Overrides": [
+				{
+					"Track": "Fireworks_Sphere",
+					"Id": "abbeae734bf077fe577cd88d7c690fb6",
+					"Value": {
+						"Type": 7,
+						"Value": 2000.0
+					}
+				},
+				{
+					"Track": "Fireworks_Sphere",
+					"Id": "1f99d80042988ecb83204fa50737c618",
+					"Value": {
+						"Type": 7,
+						"Value": 1000.0
+					}
+				},
+				{
+					"Track": "Fireworks_Inner",
+					"Id": "3d2a802045f533e132fddab59b28f862",
+					"Value": {
+						"Type": 7,
+						"Value": 1500.0
+					}
+				}
+			],
+			"ParticleSystem": "18b703244ae6f825ed9475a607dbe3b3",
+			"IsLooping": false
+		},
+		{
+			"ID": "67663887439867f9acea9d8b5447b530",
+			"TypeName": "Game.ParticleManagement",
+			"ParentID": "833efc2a41e5a8ca856eaf885d6242b5"
+		}
+	]
+}
