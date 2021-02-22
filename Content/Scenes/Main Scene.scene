@@ -18,7 +18,13 @@
 			}
 		},
 		{
-			"ID": "9856da994ec1206f6cb1dbbd848caa0e",
+			"ID": "2431592440bb7dec9d8293b70872161f",
+			"TypeName": "BasicTemplate.ExitOnEsc",
+			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
+			"V": {}
+		},
+		{
+			"ID": "05b764ff4c0b60e15360df823a17c105",
 			"TypeName": "63150f2e4a818cbf76d3338e87fb4e48",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
 			"D": {}
@@ -104,81 +110,24 @@
 			}
 		},
 		{
-			"ID": "b31f892f434d265bcf7041bdbe6b48f8",
-			"TypeName": "FlaxEngine.CharacterController",
-			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"Name": "CharacterController",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 75.0,
-					"Z": 0.0
-				}
-			},
-			"IsTrigger": true
-		},
-		{
-			"ID": "0102a57d44a7121f8082ecb98f68b55b",
-			"TypeName": "Game.PlayerMovement",
-			"ParentID": "b31f892f434d265bcf7041bdbe6b48f8",
-			"V": {}
-		},
-		{
-			"ID": "96c0e9dd4e6e8c4b85c890a55bec5227",
-			"TypeName": "FlaxEngine.CapsuleCollider",
-			"ParentID": "b31f892f434d265bcf7041bdbe6b48f8",
-			"Name": "CapsuleCollider"
-		},
-		{
-			"ID": "2113857f443591371c963fa53175afb1",
-			"TypeName": "FlaxEngine.Foliage",
-			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"Name": "Foliage"
+			"ID": "aa9920694988b69048e9d98427431bcb",
+			"TypeName": "BasicTemplate.FreeCamera",
+			"ParentID": "d50699d54c7670d5758e638b88c0ee83",
+			"V": {
+	"MoveSpeed": 30.0
+}
 		},
 		{
 			"ID": "833efc2a41e5a8ca856eaf885d6242b5",
-			"TypeName": "FlaxEngine.ParticleEffect",
+			"PrefabID": "0693b7df46778a25f3f9f29ab5411dec",
+			"PrefabObjectID": "8598441342e6a93085730c94d0990ff9",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"Name": "Pabloe",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 216.4915771484375,
-					"Z": 895.9119873046875
-				}
-			},
-			"Overrides": [
-				{
-					"Track": "Fireworks_Sphere",
-					"Id": "abbeae734bf077fe577cd88d7c690fb6",
-					"Value": {
-						"Type": 7,
-						"Value": 2000.0
-					}
-				},
-				{
-					"Track": "Fireworks_Sphere",
-					"Id": "1f99d80042988ecb83204fa50737c618",
-					"Value": {
-						"Type": 7,
-						"Value": 1000.0
-					}
-				},
-				{
-					"Track": "Fireworks_Inner",
-					"Id": "3d2a802045f533e132fddab59b28f862",
-					"Value": {
-						"Type": 7,
-						"Value": 1500.0
-					}
-				}
-			],
-			"ParticleSystem": "18b703244ae6f825ed9475a607dbe3b3",
-			"IsLooping": false
+			"Overrides": []
 		},
 		{
 			"ID": "67663887439867f9acea9d8b5447b530",
-			"TypeName": "Game.ParticleManagement",
+			"PrefabID": "0693b7df46778a25f3f9f29ab5411dec",
+			"PrefabObjectID": "aa8884344c91dcb397921196eae7811c",
 			"ParentID": "833efc2a41e5a8ca856eaf885d6242b5"
 		}
 	]
