@@ -29,11 +29,6 @@ void ParticleManagement::OnUpdate()
 	GetPosition(*instance->Emitters.Get());
 }
 
-void ParticleManagement::OnFixedUpdate()
-{
-}
-
-
 void ParticleManagement::GetPosition(ParticleEmitterInstance& data)
 {
 	auto buffer = data.Buffer;
@@ -43,15 +38,12 @@ void ParticleManagement::GetPosition(ParticleEmitterInstance& data)
 		if (positionPtr)
 		{
 			Vector3 pos = *(Vector3*)positionPtr;
-			LOG(Info, "{}", pos);
 			Variant variant(pos);
-			particleEffect->SetParameterValue(String("Fireworks_Trail"), String("Position"), variant);
+
+			particleEffect->SetParameterValue(String("Fireworks_Tail"), String("Position"), variant);
 			particleEffect->SetParameterValue(String("Fireworks_Sphere"), String("Position"), variant);
 			particleEffect->SetParameterValue(String("Fireworks_Inner"), String("Position"), variant);
 		}
 	}
-	else
-	{
-		buffer = data.Buffer;
-	}
 }
+

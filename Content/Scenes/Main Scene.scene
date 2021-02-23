@@ -24,10 +24,44 @@
 			"V": {}
 		},
 		{
-			"ID": "05b764ff4c0b60e15360df823a17c105",
-			"TypeName": "63150f2e4a818cbf76d3338e87fb4e48",
+			"ID": "9f889bd94ab9e818f830729f728a1d4e",
+			"TypeName": "Game.FireworksSpawner",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"D": {}
+			"V": {
+	"FireworkPrefab": "0693b7df46778a25f3f9f29ab5411dec",
+	"Colors": [
+		{
+			"R": 0.208956435,
+			"G": 0.942526758,
+			"B": 1.001,
+			"A": 1.0
+		},
+		{
+			"R": 0.0406008065,
+			"G": 1.001,
+			"B": 0.0569378361,
+			"A": 1.0
+		},
+		{
+			"R": 0.994811654,
+			"G": 1.001,
+			"B": 0.0,
+			"A": 1.0
+		},
+		{
+			"R": 1.001,
+			"G": 0.0363474637,
+			"B": 0.0,
+			"A": 1.0
+		},
+		{
+			"R": 0.8356384,
+			"G": 0.0,
+			"B": 1.001,
+			"A": 1.0
+		}
+	]
+}
 		},
 		{
 			"ID": "7b84bdc947bbcb610de43083ab54b831",
@@ -122,7 +156,16 @@
 			"PrefabID": "0693b7df46778a25f3f9f29ab5411dec",
 			"PrefabObjectID": "8598441342e6a93085730c94d0990ff9",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"Overrides": []
+			"Overrides": [
+				{
+					"Track": "Fireworks_Sphere",
+					"Id": "1f99d80042988ecb83204fa50737c618",
+					"Value": {
+						"Type": 7,
+						"Value": 0.0
+					}
+				}
+			]
 		},
 		{
 			"ID": "67663887439867f9acea9d8b5447b530",
