@@ -1,0 +1,55 @@
+{
+	"ID": "c29236244955474d81e85a98461fef12",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6216,
+	"Data": [
+	{
+		"ID": "144170364622f0dbbf3d1f832168711e",
+		"TypeName": "FlaxEngine.ParticleEffect",
+		"Name": "Fireworks",
+		"Transform": {
+			"Translation": {
+				"X": -322.1651306152344,
+				"Y": 197.03436279296876,
+				"Z": -359.3766784667969
+			}
+		},
+		"Overrides": [
+			{
+				"Track": "Fireworks_Sphere",
+				"Id": "d7c1cf944e908c6da02dc49d2f0d00d5",
+				"Value": {
+					"Type": 19,
+					"Value": {
+						"R": 1.0,
+						"G": 1.0,
+						"B": 1.0,
+						"A": 1.0
+					}
+				}
+			},
+			{
+				"Track": "Fireworks_Inner",
+				"Id": "ac5181904538026c1e6029b3bccf003f",
+				"Value": {
+					"Type": 19,
+					"Value": {
+						"R": 1.0,
+						"G": 1.0,
+						"B": 1.0,
+						"A": 1.0
+					}
+				}
+			}
+		],
+		"ParticleSystem": "18b703244ae6f825ed9475a607dbe3b3",
+		"IsLooping": false
+	},
+	{
+		"ID": "212b3b444aee65d69bd8e3b1517dc258",
+		"TypeName": "Game.FireworksScript",
+		"ParentID": "144170364622f0dbbf3d1f832168711e",
+		"V": {}
+	}
+]
+}

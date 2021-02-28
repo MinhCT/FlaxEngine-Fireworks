@@ -24,40 +24,46 @@
 			"V": {}
 		},
 		{
-			"ID": "9f889bd94ab9e818f830729f728a1d4e",
-			"TypeName": "Game.FireworksSpawner",
+			"ID": "4b3b9fbd4e63873fcab441a896eace29",
+			"TypeName": "Game.FireworksSpawnerScript",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
 			"V": {
-	"FireworkPrefab": "0693b7df46778a25f3f9f29ab5411dec",
+	"FireworkPrefab": "c29236244955474d81e85a98461fef12",
 	"Colors": [
 		{
-			"R": 0.208956435,
-			"G": 0.942526758,
-			"B": 1.001,
+			"R": 0.0,
+			"G": 0.0193738658,
+			"B": 0.487111151,
 			"A": 1.0
 		},
 		{
-			"R": 0.0406008065,
-			"G": 1.001,
-			"B": 0.0569378361,
-			"A": 1.0
-		},
-		{
-			"R": 0.994811654,
-			"G": 1.001,
-			"B": 0.0,
+			"R": 0.727017462,
+			"G": 0.0,
+			"B": 0.7565556,
 			"A": 1.0
 		},
 		{
 			"R": 1.001,
-			"G": 0.0363474637,
+			"G": 0.0771167651,
 			"B": 0.0,
 			"A": 1.0
 		},
 		{
-			"R": 0.8356384,
-			"G": 0.0,
-			"B": 1.001,
+			"R": 0.05927644,
+			"G": 0.7037778,
+			"B": 0.119628347,
+			"A": 1.0
+		},
+		{
+			"R": 0.0,
+			"G": 0.7037778,
+			"B": 0.689430058,
+			"A": 1.0
+		},
+		{
+			"R": 0.984249651,
+			"G": 1.001,
+			"B": 0.0,
 			"A": 1.0
 		}
 	]
@@ -152,26 +158,18 @@
 }
 		},
 		{
-			"ID": "833efc2a41e5a8ca856eaf885d6242b5",
-			"PrefabID": "0693b7df46778a25f3f9f29ab5411dec",
-			"PrefabObjectID": "8598441342e6a93085730c94d0990ff9",
+			"ID": "85bb24f84bbff95220b738aa7148ce80",
+			"PrefabID": "c29236244955474d81e85a98461fef12",
+			"PrefabObjectID": "144170364622f0dbbf3d1f832168711e",
 			"ParentID": "5c3d4b81436933edcb37f28588e9dca5",
-			"Overrides": [
-				{
-					"Track": "Fireworks_Sphere",
-					"Id": "1f99d80042988ecb83204fa50737c618",
-					"Value": {
-						"Type": 7,
-						"Value": 0.0
-					}
-				}
-			]
+			"Overrides": []
 		},
 		{
-			"ID": "67663887439867f9acea9d8b5447b530",
-			"PrefabID": "0693b7df46778a25f3f9f29ab5411dec",
-			"PrefabObjectID": "aa8884344c91dcb397921196eae7811c",
-			"ParentID": "833efc2a41e5a8ca856eaf885d6242b5"
+			"ID": "684c77bd4dcc74a6c283ee91eced002c",
+			"PrefabID": "c29236244955474d81e85a98461fef12",
+			"PrefabObjectID": "212b3b444aee65d69bd8e3b1517dc258",
+			"ParentID": "85bb24f84bbff95220b738aa7148ce80",
+			"V": {}
 		}
 	]
 }
